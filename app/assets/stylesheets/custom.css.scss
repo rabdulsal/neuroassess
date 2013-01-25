@@ -2,15 +2,23 @@
  	background: #eee;
  }
 
-.container {
+ .container {
+ 	height: 100%;
+ }
+
+.main {
 	height: 100%;
 	margin: 0 auto 20px;
+}
+
+.box-content {
+	padding: 10px;
 }
 
 .form-box {
 	width: 100%;
 	box-shadow: 0 10px 25px #555;
-	background: #aaa;	
+	background: #fff;		
 }
 
 .round-corners {

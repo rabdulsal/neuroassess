@@ -16,4 +16,8 @@ class AssessmentsController < ApplicationController
 
 	end
 
+	def SF
+
+	end
+
 end
