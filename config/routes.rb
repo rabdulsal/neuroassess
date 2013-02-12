@@ -6,6 +6,7 @@ Neuroassess::Application.routes.draw do
   get "/ODI" => "assessments#ODI"
   get "/EQ-5D" => "assessments#EQ"
   get "/SF-6D" => "assessments#SF"
+  get "/PAIN" => "assessments#PAIN"
   
   # The priority is based upon order of creation:
   # first created -> highest priority.

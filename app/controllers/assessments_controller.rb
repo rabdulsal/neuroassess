@@ -20,4 +20,8 @@ class AssessmentsController < ApplicationController
 
 	end
 
+	def PAIN
+		
+	end
+
 end
