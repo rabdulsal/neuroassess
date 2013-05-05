@@ -4,6 +4,14 @@ class AssessmentsController < ApplicationController
 		
 	end
 
+	def consent
+
+	end
+
+	def forms
+
+	end
+
 	def NDI
 
 	end
@@ -22,6 +30,10 @@ class AssessmentsController < ApplicationController
 
 	def PAIN
 		
+	end
+
+	def NMI
+
 	end
 
 end

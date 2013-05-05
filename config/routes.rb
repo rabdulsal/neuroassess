@@ -2,11 +2,16 @@ Neuroassess::Application.routes.draw do
 
   root to: 'assessments#home', as: 'home'
 
+  get "/consent" => "assessments#consent"
+  get "/forms" => "assessments#forms"
   get "/NDI" => "assessments#NDI"
   get "/ODI" => "assessments#ODI"
   get "/EQ-5D" => "assessments#EQ"
   get "/SF-6D" => "assessments#SF"
   get "/PAIN" => "assessments#PAIN"
+  get "/NMI" => "assessments#NMI"
+  get "/patients" => "patients#list"
+  get "/patient/test" => "patients#test"
   
   # The priority is based upon order of creation:
   # first created -> highest priority.

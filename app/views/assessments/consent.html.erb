@@ -1,0 +1,25 @@
+<h1>
+	Patient Consent Form
+</h1>
+
+<div class="form-box round-corners">
+	<div class="box-content">
+		<h3>
+			Sample Consent Form Info
+		</h3>
+
+		<form class="form-horizontal">			  
+		  <div class="control-group">
+		    <div class="controls">
+		      <label class="checkbox">
+		        <input type="checkbox"> By checking this box and clicking "I consent", I agree to supply my information to Rush's Neuro Team.
+		      </label>
+		      <%= link_to "I DO NOT Consent", "/", class: "btn btn-danger", type: "button" %>
+
+				<%= link_to "I Consent", "/forms", class: "btn btn-primary", type: "button" %>
+		    </div>
+		  </div>
+		</form>
+		
+	</div>
+</div>

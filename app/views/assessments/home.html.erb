@@ -1,7 +1,7 @@
-<h1>Rush Neuro On-line Assessments</h1>
+<h1 class="margin-bottom">Rush Neuro On-line Assessments</h1>
 
 <div class="form-box round-corners">
-	<div class="box-content">
+	<!-- <div class="box-content">
 		<h2>Welcome to the Test site!</h2>
 
 		<p>
@@ -33,6 +33,39 @@
 				<b>Phone: </b>(312) 369-9850
 			</li>
 		</ul>
+	</div> -->
+
+	<div class="box-content">
+		<h3>
+			This sign-up form is designed strictly for demonstration purposes. Please click either "Physician" of "Patient" to continue with the respective site navigation workflow.
+		</h3>
+
+		<div class="sign_in">
+			<form class="form-horizontal">
+			  <div class="control-group">
+			    <label class="control-label" for="inputEmail">Login</label>
+			    <div class="controls">
+			      <input type="text" id="inputEmail" placeholder="Login">
+			    </div>
+			  </div>
+			  <div class="control-group">
+			    <label class="control-label" for="inputPassword">Password</label>
+			    <div class="controls">
+			      <input type="password" id="inputPassword" placeholder="Password">
+			    </div>
+			  </div>
+			  <div class="control-group">
+			    <div class="controls">
+			      <label class="checkbox">
+			        <input type="checkbox"> Remember me
+			      </label>
+			        <%= link_to "Physician", "/patients", class: "btn btn-primary", type: "button" %>
+
+					<%= link_to "Patient", "/consent", class: "btn btn-primary", type: "button" %>
+			    </div>
+			  </div>
+			</form>
+		</div>
 	</div>
 
 </div>

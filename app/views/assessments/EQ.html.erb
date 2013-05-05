@@ -1,3 +1,17 @@
+<%= link_to "Back to Symptom List", "/forms" %>
+
 <h1>EQ-5D Assessment</h1>
 
-<iframe src="https://docs.google.com/spreadsheet/embeddedform?formkey=dHZZandPSzM4VzRqcDU4NkREVXRIaGc6MQ" height="1068" frameborder="0" marginheight="0" marginwidth="0" class="form-box center round-corners">Loading...</iframe>
+<ul class="breadcrumb">    
+  <li class="active">NDI <span class="divider">/</span></li>
+  <li class="active">NMI<span class="divider">/</span></li>
+  <li><a href="#">EQ-5D</a> <span class="divider">/</span></li>
+  <li class="active">Extremity Pain </li>
+</ul>
+
+<iframe src="https://docs.google.com/spreadsheet/embeddedform?formkey=dHZZandPSzM4VzRqcDU4NkREVXRIaGc6MQ" height="1068" frameborder="0" marginheight="0" marginwidth="0" class="form-box round-corners">Loading...</iframe>
+
+<div class="pull-right">
+	<%= link_to "Back", "/NMI", class: "btn btn-link btn-large", type: "button" %>
+	<%= link_to "Next", "/PAIN", class: "btn btn-primary btn-large", type: "button" %>
+</div>

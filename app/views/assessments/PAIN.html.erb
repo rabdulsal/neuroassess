@@ -1,3 +1,16 @@
+<%= link_to "Back to Symptom List", "/forms" %>
+
 <h1>Extremity Pain Assessment</h1>
 
-<iframe src="https://docs.google.com/a/happyhealth.me/spreadsheet/embeddedform?formkey=dFZXUUg2REg4VnM0SDFibDNoMDNNX0E6MQ" width="760" height="712" frameborder="0" marginheight="0" marginwidth="0" class="form-box center round-corners">Loading...</iframe>
+<ul class="breadcrumb">    
+  <li class="active">NDI<span class="divider">/</span></li>
+  <li class="active">NMI<span class="divider">/</span></li>
+  <li class="active">EQ-5D <span class="divider">/</span></li>
+  <li><a href="#">Extremity Pain</a> </li>
+</ul>
+
+<iframe src="https://docs.google.com/a/happyhealth.me/spreadsheet/embeddedform?formkey=dFZXUUg2REg4VnM0SDFibDNoMDNNX0E6MQ" height="850" frameborder="0" marginheight="0" marginwidth="0" class="form-box round-corners">Loading...</iframe>
+
+<div class="pull-right">
+	<%= link_to "Back", "/EQ-5D", class: "btn btn-link btn-large", type: "button" %>
+</div>

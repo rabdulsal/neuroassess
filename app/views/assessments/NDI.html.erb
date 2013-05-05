@@ -1,3 +1,16 @@
+<%= link_to "Back to Symptom List", "/forms" %>
+
 <h1>NDI Assessment</h1>
 
-<iframe src="https://docs.google.com/a/happyhealth.me/spreadsheet/embeddedform?formkey=dDRUcVNtU2Z4WXA4Z1pDNmVScDhUc3c6MQ" height="2350" frameborder="0" marginheight="0" marginwidth="0" class="form-box center round-corners">Loading...</iframe>
+<ul class="breadcrumb">    
+  <li><a href="#">NDI</a> <span class="divider">/</span></li>
+  <li class="active">NMI<span class="divider">/</span></li>
+  <li class="active">EQ-5D <span class="divider">/</span></li>
+  <li class="active">Extremity Pain </li>
+</ul>
+
+<iframe src="https://docs.google.com/a/happyhealth.me/spreadsheet/embeddedform?formkey=dDRUcVNtU2Z4WXA4Z1pDNmVScDhUc3c6MQ" height="2350" frameborder="0" marginheight="0" marginwidth="0" class="form-box round-corners">Loading...</iframe>
+
+<div class="pull-right">
+	<%= link_to "Next", "/NMI", class: "btn btn-primary btn-large", type: "button" %>
+</div>

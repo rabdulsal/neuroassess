@@ -1,5 +1,9 @@
- body {
+body {
  	background: #eee;
+ }
+
+ h3 {
+ 	text-align: center;
  }
 
  .container {
@@ -12,19 +16,57 @@
 }
 
 .box-content {
-	padding: 10px;
+	padding: 10px 10px 20px 10px;		
 }
 
 .form-box {
 	width: 100%;
-	box-shadow: 0 10px 25px #555;
-	background: #fff;		
+	/*box-shadow: 0 10px 25px #555;*/
+	border: 1px solid #ddd;
+	background: #fff;
+	margin-bottom: 20px;
+	padding-bottom: 20px;		
+}
+
+.left_sidebar {
+	border: 1px solid #ddd;
+	background: #fff;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	max-width: 100%;
 }
 
 .round-corners {
-	border-radius: 5px;
+	border-radius: 4px;
 }
 
-.nav {
-	float: right;
+.center {
+	width: 200px;
+	margin: 0 auto;
+}
+
+.form-horizontal {
+	background: #f6f6f6;
+	border: 2px solid #aaa;
+	border-radius: 4px;
+	margin: auto;
+	width: 450px;
+	height: auto;
+	padding-top: 20px;	
+}
+
+.accordion-inner {
+	background: #f6f6f6;	
+}
+
+.table {
+	background: #fff;
+}
+
+.faded {
+	color: #aaa;
+}
+
+.margin-bottom {
+	margin-bottom: 10px;
 }

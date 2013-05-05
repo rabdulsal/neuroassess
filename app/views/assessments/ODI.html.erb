@@ -1,3 +1,15 @@
+<%= link_to "Back to Symptom List", "/forms" %>
+
 <h1>ODI Assessment</h1>
 
-<iframe src="https://docs.google.com/a/happyhealth.me/spreadsheet/embeddedform?formkey=dGlqZjRfS3FtdXktTzZKLUNSbGxDS1E6MQ" height="2207" frameborder="0" marginheight="0" marginwidth="0" class="form-box center round-corners">Loading...</iframe>
+<ul class="breadcrumb">    
+  <li><a href="#">ODI</a><span class="divider">/</span></li>
+  <li class="active">EQ-5D <span class="divider">/</span></li>
+  <li class="active">Extremity Pain </li>
+</ul>
+
+<iframe src="https://docs.google.com/a/happyhealth.me/spreadsheet/embeddedform?formkey=dGlqZjRfS3FtdXktTzZKLUNSbGxDS1E6MQ" height="2207" frameborder="0" marginheight="0" marginwidth="0" class="form-box round-corners">Loading...</iframe>
+
+<div class="pull-right">
+	<%= link_to "Next", "/EQ-5D", class: "btn btn-primary btn-large", type: "button" %>
+</div>
